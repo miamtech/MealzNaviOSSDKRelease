@@ -1,0 +1,4 @@
+framework module MealzNaviOSSDK {
+  header "MealzNaviOSSDK-Swift.h"
+  requires objc
+}
