@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MealzNavIiOSSDKRelease",
+    name: "MealzNaviOSSDKRelease",
     defaultLocalization: "fr",
     platforms: [
         .iOS(.v12),
@@ -12,12 +12,12 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "MealzNavIiOSSDKRelease",
-            targets: ["MealzNavIiOSSDKRelease"]),
+            name: "MealzNaviOSSDKRelease",
+            targets: ["MealzNaviOSSDKRelease"]),
     ],
     targets: [
         .binaryTarget(
-            name: "MealzNavIiOSSDKRelease",
+            name: "MealzNaviOSSDKRelease",
             path: "./MealzNaviOSSDK.xcframework"
         )
     ]
