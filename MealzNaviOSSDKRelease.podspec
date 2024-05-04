@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name         = 'MealzNaviOSSDKRelease'
-    spec.version      = '1.1.0-alpha'
+    spec.version      = '1.1.0-alpha1'
     spec.summary      = 'Mealz UI iOS SDK'
     spec.description  = <<-DESC
         Mealz UI iOS SDK.
