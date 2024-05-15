@@ -3,22 +3,31 @@
 
 import PackageDescription
 
+let configurationMode = "prod"
+
 let package = Package(
-    name: "MealzNaviOSSDKRelease",
+    name: "MealzNaviOSSDK",
     defaultLocalization: "fr",
     platforms: [
         .iOS(.v12),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "MealzNaviOSSDKRelease",
-            targets: ["MealzNaviOSSDKRelease"]),
+            name: "MealzNaviOSSDK",
+            targets: ["MealzNaviOSSDK"]),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/miamtech/MealzIOSFrameworkRelease", from: "1.0.0")
     ],
     targets: [
         .binaryTarget(
-            name: "MealzNaviOSSDKRelease",
-            path: "./MealzNaviOSSDK.xcframework"
+            name: "MealzNaviOSSDK",
+            url: "https://github.com/miamtech/MealzNaviOSSDKRelease/raw/release/1.0.10/MealzNaviOSSDK.zip",
+            checksum: "42bd2718ee1ea9145e8b5a4a7af5f4819881bd20a87a03ee228abedc6b93b4c4"
         )
+        
     ]
 )
+/*
+ 
+ */
