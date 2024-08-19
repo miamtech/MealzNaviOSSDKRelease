@@ -6,6 +6,16 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MealzNaviOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1868,6 +1878,158 @@
           },
           {
             "kind": "Var",
+            "name": "finalNavigationMethod",
+            "printedName": "finalNavigationMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvp",
+            "mangledName": "$s14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvp",
+            "moduleName": "MealzNaviOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvg",
+                "mangledName": "$s14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvg",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MealPlannerFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MealPlannerFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvs",
+                "mangledName": "$s14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvs",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MealPlannerFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MealPlannerFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvM",
+                "mangledName": "$s14MealzNaviOSSDK40MealPlannerFeatureNavCoordinatorProtocolP21finalNavigationMethodyycSgvM",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MealPlannerFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MealPlannerFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "intro_iOS": "14",
+                "declAttributes": [
+                  "Available"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "basketRecipeGridConfig",
             "printedName": "basketRecipeGridConfig",
             "children": [
@@ -2375,12 +2537,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2395,12 +2557,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3349,6 +3511,153 @@
                 "declKind": "Accessor",
                 "usr": "s:14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC18filtersViewOptions0a3UIiC007FiltersjK0VvM",
                 "mangledName": "$s14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC18filtersViewOptions0a3UIiC007FiltersjK0VvM",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "intro_iOS": "14",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finalNavigationMethod",
+            "printedName": "finalNavigationMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvp",
+            "mangledName": "$s14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvp",
+            "moduleName": "MealzNaviOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvg",
+                "mangledName": "$s14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvg",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvs",
+                "mangledName": "$s14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvs",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvM",
+                "mangledName": "$s14MealzNaviOSSDK32MealPlannerFeatureNavCoordinatorC21finalNavigationMethodyycSgvM",
                 "moduleName": "MealzNaviOSSDK",
                 "implicit": true,
                 "intro_iOS": "14",
@@ -4530,7 +4839,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(baseViews:mealPlannerFormViewOptions:mealPlannerResultsViewOptions:mealPlannerRecipePickerViewOptions:mealPlannerBasketViewOptions:basketRecipeViewOptions:mealPlannerRecapViewOptions:filtersViewOptions:basketRecipeGridConfig:mealPlannerRecipesListGridConfig:catalogRecipesListGridConfig:)",
+            "printedName": "init(baseViews:mealPlannerFormViewOptions:mealPlannerResultsViewOptions:mealPlannerRecipePickerViewOptions:mealPlannerBasketViewOptions:basketRecipeViewOptions:mealPlannerRecapViewOptions:filtersViewOptions:basketRecipeGridConfig:mealPlannerRecipesListGridConfig:catalogRecipesListGridConfig:finalNavigationMethod:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4614,11 +4923,37 @@
                 "printedName": "MealziOSSDK.CatalogRecipesListGridConfig",
                 "hasDefaultArg": true,
                 "usr": "s:11MealziOSSDK28CatalogRecipesListGridConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK29MealPlannerFeatureConstructorV9baseViews04mealE15FormViewOptions0je7ResultslM00je12RecipePickerlM00je6BasketlM006basketolM00je5RecaplM007filterslM00rO10GridConfig0je11RecipesListuV007catalogwxuV0AC0a3UIiC008BasePageL10ParametersV_AO0deklM0VAO0denlM0VAO0deoplM0VAO0deqlM0VAO0qolM0VAO0deslM0VAO07FilterslM0V06MealziC00qwuV0VA4_0dewxuV0VA4_07CatalogwxuV0Vtcfc",
-            "mangledName": "$s14MealzNaviOSSDK29MealPlannerFeatureConstructorV9baseViews04mealE15FormViewOptions0je7ResultslM00je12RecipePickerlM00je6BasketlM006basketolM00je5RecaplM007filterslM00rO10GridConfig0je11RecipesListuV007catalogwxuV0AC0a3UIiC008BasePageL10ParametersV_AO0deklM0VAO0denlM0VAO0deoplM0VAO0deqlM0VAO0qolM0VAO0deslM0VAO07FilterslM0V06MealziC00qwuV0VA4_0dewxuV0VA4_07CatalogwxuV0Vtcfc",
+            "usr": "s:14MealzNaviOSSDK29MealPlannerFeatureConstructorV9baseViews04mealE15FormViewOptions0je7ResultslM00je12RecipePickerlM00je6BasketlM006basketolM00je5RecaplM007filterslM00rO10GridConfig0je11RecipesListuV007catalogwxuV021finalNavigationMethodAC0a3UIiC008BasePageL10ParametersV_AP0deklM0VAP0denlM0VAP0deoplM0VAP0deqlM0VAP0qolM0VAP0deslM0VAP07FilterslM0V06MealziC00qwuV0VA5_0dewxuV0VA5_07CatalogwxuV0VyycSgtcfc",
+            "mangledName": "$s14MealzNaviOSSDK29MealPlannerFeatureConstructorV9baseViews04mealE15FormViewOptions0je7ResultslM00je12RecipePickerlM00je6BasketlM006basketolM00je5RecaplM007filterslM00rO10GridConfig0je11RecipesListuV007catalogwxuV021finalNavigationMethodAC0a3UIiC008BasePageL10ParametersV_AP0deklM0VAP0denlM0VAP0deoplM0VAP0deqlM0VAP0qolM0VAP0deslM0VAP07FilterslM0V06MealziC00qwuV0VA5_0dewxuV0VA5_07CatalogwxuV0VyycSgtcfc",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -4829,12 +5164,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4849,12 +5184,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -6977,6 +7312,158 @@
           },
           {
             "kind": "Var",
+            "name": "myMealsCTANavigation",
+            "printedName": "myMealsCTANavigation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvp",
+            "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvp",
+            "moduleName": "MealzNaviOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvg",
+                "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvg",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvs",
+                "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvs",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvM",
+                "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP20myMealsCTANavigationyycSgvM",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "intro_iOS": "14",
+                "declAttributes": [
+                  "Available"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "catalogRecipesListGridConfig",
             "printedName": "catalogRecipesListGridConfig",
             "children": [
@@ -7137,7 +7624,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(myBasketViewOptions:myBasketBaseViews:myMealsViewOptions:myMealsBaseViews:myProductsViewOptions:myProductsBaseViews:catalogRecipesListGridConfig:navigateToCatalog:navigateToCheckout:)",
+            "printedName": "init(myBasketViewOptions:myBasketBaseViews:myMealsViewOptions:myMealsBaseViews:myProductsViewOptions:myProductsBaseViews:catalogRecipesListGridConfig:navigateToCatalog:navigateToCheckout:myMealsCTANavigation:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7236,11 +7723,37 @@
                     "usr": "s:Sq"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig17navigateToCatalog0tU8CheckoutAC0a3UIiC00deiJ0V_AM0k4PageI10ParametersVAM0dmiJ0VAqM0dniJ0VAQ06MealziC00vpqrS0VyycySSSgctcfc",
-            "mangledName": "$s14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig17navigateToCatalog0tU8CheckoutAC0a3UIiC00deiJ0V_AM0k4PageI10ParametersVAM0dmiJ0VAqM0dniJ0VAQ06MealziC00vpqrS0VyycySSSgctcfc",
+            "usr": "s:14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig17navigateToCatalog0tU8Checkout0hM13CTANavigationAC0a3UIiC00deiJ0V_AN0k4PageI10ParametersVAN0dmiJ0VArN0dniJ0VAR06MealziC00vpqrS0VyycySSSgcyycSgtcfc",
+            "mangledName": "$s14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig17navigateToCatalog0tU8Checkout0hM13CTANavigationAC0a3UIiC00deiJ0V_AN0k4PageI10ParametersVAN0dmiJ0VArN0dniJ0VAR06MealziC00vpqrS0VyycySSSgcyycSgtcfc",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -7329,12 +7842,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -7349,12 +7862,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -8401,6 +8914,153 @@
           },
           {
             "kind": "Var",
+            "name": "myMealsCTANavigation",
+            "printedName": "myMealsCTANavigation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvp",
+            "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvp",
+            "moduleName": "MealzNaviOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvg",
+                "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvg",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvs",
+                "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvs",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvM",
+                "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC20myMealsCTANavigationyycSgvM",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "intro_iOS": "14",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "recipeDetailsCoordinator",
             "printedName": "recipeDetailsCoordinator",
             "children": [
@@ -9110,7 +9770,7 @@
           {
             "kind": "Function",
             "name": "showRecipeDetails",
-            "printedName": "showRecipeDetails(recipeId:isForMealPlanner:)",
+            "printedName": "showRecipeDetails(recipeId:isMealzRecipe:isForMealPlanner:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9128,11 +9788,17 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK35RecipeDetailsNavCoordinatorProtocolP04showdE08recipeId16isForMealPlannerySS_SbtF",
-            "mangledName": "$s14MealzNaviOSSDK35RecipeDetailsNavCoordinatorProtocolP04showdE08recipeId16isForMealPlannerySS_SbtF",
+            "usr": "s:14MealzNaviOSSDK35RecipeDetailsNavCoordinatorProtocolP04showdE08recipeId02isaD00L14ForMealPlannerySS_S2btF",
+            "mangledName": "$s14MealzNaviOSSDK35RecipeDetailsNavCoordinatorProtocolP04showdE08recipeId02isaD00L14ForMealPlannerySS_S2btF",
             "moduleName": "MealzNaviOSSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.RecipeDetailsNavCoordinatorProtocol>",
             "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.RecipeDetailsNavCoordinatorProtocol>",
@@ -9266,7 +9932,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(hideTitles:recipeId:recipeDetailsConstructor:)",
+            "printedName": "init(hideTitles:recipeId:isMealzRecipe:recipeDetailsConstructor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9289,6 +9955,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "RecipeDetailsFeatureConstructor",
                 "printedName": "MealzNaviOSSDK.RecipeDetailsFeatureConstructor",
                 "hasDefaultArg": true,
@@ -9296,8 +9969,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK0A27RecipeDetailsFeatureSwiftUIV10hideTitles8recipeId0kE11ConstructorACSb_SSAA0defM0Vtcfc",
-            "mangledName": "$s14MealzNaviOSSDK0A27RecipeDetailsFeatureSwiftUIV10hideTitles8recipeId0kE11ConstructorACSb_SSAA0defM0Vtcfc",
+            "usr": "s:14MealzNaviOSSDK0A27RecipeDetailsFeatureSwiftUIV10hideTitles8recipeId02isaD00kE11ConstructorACSb_SSSbAA0defN0Vtcfc",
+            "mangledName": "$s14MealzNaviOSSDK0A27RecipeDetailsFeatureSwiftUIV10hideTitles8recipeId02isaD00kE11ConstructorACSb_SSSbAA0defN0Vtcfc",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -9961,7 +10634,7 @@
           {
             "kind": "Function",
             "name": "showRecipeDetails",
-            "printedName": "showRecipeDetails(recipeId:isForMealPlanner:)",
+            "printedName": "showRecipeDetails(recipeId:isMealzRecipe:isForMealPlanner:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9980,11 +10653,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC04showdE08recipeId16isForMealPlannerySS_SbtF",
-            "mangledName": "$s14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC04showdE08recipeId16isForMealPlannerySS_SbtF",
+            "usr": "s:14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC04showdE08recipeId02isaD00L14ForMealPlannerySS_S2btF",
+            "mangledName": "$s14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC04showdE08recipeId02isaD00L14ForMealPlannerySS_S2btF",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -9994,7 +10674,7 @@
           {
             "kind": "Function",
             "name": "setRecipeDetails",
-            "printedName": "setRecipeDetails(recipeId:isForMealPlanner:)",
+            "printedName": "setRecipeDetails(recipeId:isMealzRecipe:isForMealPlanner:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10013,11 +10693,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC03setdE08recipeId16isForMealPlannerySS_SbtF",
-            "mangledName": "$s14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC03setdE08recipeId16isForMealPlannerySS_SbtF",
+            "usr": "s:14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC03setdE08recipeId02isaD00L14ForMealPlannerySS_S2btF",
+            "mangledName": "$s14MealzNaviOSSDK34RecipeDetailsFeatureNavCoordinatorC03setdE08recipeId02isaD00L14ForMealPlannerySS_S2btF",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -10183,7 +10870,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(recipeId:hideTitles:recipeDetailsConstructor:)",
+            "printedName": "init(recipeId:isMealzRecipe:hideTitles:recipeDetailsConstructor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10206,6 +10893,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "RecipeDetailsFeatureConstructor",
                 "printedName": "MealzNaviOSSDK.RecipeDetailsFeatureConstructor",
                 "hasDefaultArg": true,
@@ -10213,8 +10907,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK0A25RecipeDetailsFeatureUIKitC8recipeId10hideTitles0hE11ConstructorACSS_SbAA0defL0Vtcfc",
-            "mangledName": "$s14MealzNaviOSSDK0A25RecipeDetailsFeatureUIKitC8recipeId10hideTitles0hE11ConstructorACSS_SbAA0defL0Vtcfc",
+            "usr": "s:14MealzNaviOSSDK0A25RecipeDetailsFeatureUIKitC8recipeId02isaD010hideTitles0hE11ConstructorACSS_S2bAA0defM0Vtcfc",
+            "mangledName": "$s14MealzNaviOSSDK0A25RecipeDetailsFeatureUIKitC8recipeId02isaD010hideTitles0hE11ConstructorACSS_S2bAA0defM0Vtcfc",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "Custom",
@@ -10236,12 +10930,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -10256,12 +10950,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11947,12 +12641,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -11967,12 +12661,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14022,12 +14716,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14042,12 +14736,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14737,12 +15431,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14757,12 +15451,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -16247,12 +16941,26 @@
           {
             "kind": "Function",
             "name": "showCatalogResults",
-            "printedName": "showCatalogResults(title:catalogId:categoryTitle:isFavorite:)",
+            "printedName": "showCatalogResults(title:catalogId:categoryTitle:categorySubtitle:isFavorite:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -16304,8 +17012,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK36CatalogFeatureNavCoordinatorProtocolP04showD7Results5title9catalogId13categoryTitle10isFavoriteySSSg_A2ISbtF",
-            "mangledName": "$s14MealzNaviOSSDK36CatalogFeatureNavCoordinatorProtocolP04showD7Results5title9catalogId13categoryTitle10isFavoriteySSSg_A2ISbtF",
+            "usr": "s:14MealzNaviOSSDK36CatalogFeatureNavCoordinatorProtocolP04showD7Results5title9catalogId13categoryTitle0N8Subtitle10isFavoriteySSSg_A3JSbtF",
+            "mangledName": "$s14MealzNaviOSSDK36CatalogFeatureNavCoordinatorProtocolP04showD7Results5title9catalogId13categoryTitle0N8Subtitle10isFavoriteySSSg_A3JSbtF",
             "moduleName": "MealzNaviOSSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.CatalogFeatureNavCoordinatorProtocol>",
             "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.CatalogFeatureNavCoordinatorProtocol>",
@@ -17980,7 +18688,7 @@
           {
             "kind": "Function",
             "name": "showCatalogResultsFromSideView",
-            "printedName": "showCatalogResultsFromSideView(title:catalogId:categoryTitle:)",
+            "printedName": "showCatalogResultsFromSideView(title:catalogId:categoryTitle:categorySubtitle:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -17999,6 +18707,21 @@
                     "usr": "s:SS"
                   }
                 ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -18033,8 +18756,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD19ResultsFromSideView5title9catalogId13categoryTitleySSSg_A2HtF",
-            "mangledName": "$s14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD19ResultsFromSideView5title9catalogId13categoryTitleySSSg_A2HtF",
+            "usr": "s:14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD19ResultsFromSideView5title9catalogId13categoryTitle0P8SubtitleySSSg_A3ItF",
+            "mangledName": "$s14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD19ResultsFromSideView5title9catalogId13categoryTitle0P8SubtitleySSSg_A3ItF",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -18044,12 +18767,27 @@
           {
             "kind": "Function",
             "name": "showCatalogResults",
-            "printedName": "showCatalogResults(title:catalogId:categoryTitle:isFavorite:)",
+            "printedName": "showCatalogResults(title:catalogId:categoryTitle:categorySubtitle:isFavorite:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -18105,8 +18843,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD7Results5title9catalogId13categoryTitle10isFavoriteySSSg_A2ISbtF",
-            "mangledName": "$s14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD7Results5title9catalogId13categoryTitle10isFavoriteySSSg_A2ISbtF",
+            "usr": "s:14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD7Results5title9catalogId13categoryTitle0M8Subtitle10isFavoriteySSSg_A3JSbtF",
+            "mangledName": "$s14MealzNaviOSSDK28CatalogFeatureNavCoordinatorC04showD7Results5title9catalogId13categoryTitle0M8Subtitle10isFavoriteySSSg_A3JSbtF",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -19818,12 +20556,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -19838,12 +20576,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -20059,6 +20797,248 @@
       },
       {
         "kind": "Import",
+        "name": "mealzcore",
+        "printedName": "mealzcore",
+        "declKind": "Import",
+        "moduleName": "MealzNaviOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MealziOSSDK",
+        "printedName": "MealziOSSDK",
+        "declKind": "Import",
+        "moduleName": "MealzNaviOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MealzUIiOSSDK",
+        "printedName": "MealzUIiOSSDK",
+        "declKind": "Import",
+        "moduleName": "MealzNaviOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MealzNaviOSSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferBasketFeature",
+        "printedName": "TransferBasketFeature",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(transferBasketAbortOrContinue:transferBasketLoading:transferBasketWebview:transferBasketUrl:retailerName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferBasketFeature",
+                "printedName": "MealzNaviOSSDK.TransferBasketFeature",
+                "usr": "s:14MealzNaviOSSDK21TransferBasketFeatureV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MealziOSSDK.TransferBasketAbortOrContinueViewProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferBasketAbortOrContinueViewProtocol",
+                    "printedName": "any MealziOSSDK.TransferBasketAbortOrContinueViewProtocol",
+                    "usr": "s:11MealziOSSDK41TransferBasketAbortOrContinueViewProtocolP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MealziOSSDK.TransferBasketLoadingViewProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferBasketLoadingViewProtocol",
+                    "printedName": "any MealziOSSDK.TransferBasketLoadingViewProtocol",
+                    "usr": "s:11MealziOSSDK33TransferBasketLoadingViewProtocolP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any MealziOSSDK.TransferBasketWebviewProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferBasketWebviewProtocol",
+                    "printedName": "any MealziOSSDK.TransferBasketWebviewProtocol",
+                    "usr": "s:11MealziOSSDK29TransferBasketWebviewProtocolP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MealzNaviOSSDK21TransferBasketFeatureV08transferE15AbortOrContinue0gE7Loading0gE7Webview0gE3Url12retailerNameAC06MealziC00dehiJ12ViewProtocol_pSg_AI0dekqR0_pSgAI0delR0_pSg10Foundation3URLVSStcfc",
+            "mangledName": "$s14MealzNaviOSSDK21TransferBasketFeatureV08transferE15AbortOrContinue0gE7Loading0gE7Webview0gE3Url12retailerNameAC06MealziC00dehiJ12ViewProtocol_pSg_AI0dekqR0_pSgAI0delR0_pSg10Foundation3URLVSStcfc",
+            "moduleName": "MealzNaviOSSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MealzNaviOSSDK21TransferBasketFeatureV4bodyQrvp",
+            "mangledName": "$s14MealzNaviOSSDK21TransferBasketFeatureV4bodyQrvp",
+            "moduleName": "MealzNaviOSSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK21TransferBasketFeatureV4bodyQrvg",
+                "mangledName": "$s14MealzNaviOSSDK21TransferBasketFeatureV4bodyQrvg",
+                "moduleName": "MealzNaviOSSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toUIKit",
+            "printedName": "toUIKit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MealzNaviOSSDK21TransferBasketFeatureV7toUIKitSo16UIViewControllerCyF",
+            "mangledName": "$s14MealzNaviOSSDK21TransferBasketFeatureV7toUIKitSo16UIViewControllerCyF",
+            "moduleName": "MealzNaviOSSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14MealzNaviOSSDK21TransferBasketFeatureV",
+        "mangledName": "$s14MealzNaviOSSDK21TransferBasketFeatureV",
+        "moduleName": "MealzNaviOSSDK",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MealzNaviOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "MealzUIiOSSDK",
         "printedName": "MealzUIiOSSDK",
         "declKind": "Import",
@@ -20154,7 +21134,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(recipeId:recipeDetailsConstructor:recipeCardConstructor:)",
+            "printedName": "init(recipeId:isMealzRecipe:recipeDetailsConstructor:recipeCardConstructor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20167,6 +21147,13 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -20184,8 +21171,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK0A25StandaloneRecipeCardUIKitC8recipeId0H18DetailsConstructor0hfK0ACSS_AA0ej7FeatureK0VAA0defK0Vtcfc",
-            "mangledName": "$s14MealzNaviOSSDK0A25StandaloneRecipeCardUIKitC8recipeId0H18DetailsConstructor0hfK0ACSS_AA0ej7FeatureK0VAA0defK0Vtcfc",
+            "usr": "s:14MealzNaviOSSDK0A25StandaloneRecipeCardUIKitC8recipeId02isaE00H18DetailsConstructor0hfL0ACSS_SbAA0ek7FeatureL0VAA0defL0Vtcfc",
+            "mangledName": "$s14MealzNaviOSSDK0A25StandaloneRecipeCardUIKitC8recipeId02isaE00H18DetailsConstructor0hfL0ACSS_SbAA0ek7FeatureL0VAA0defL0Vtcfc",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "Custom",
@@ -20317,12 +21304,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -20337,12 +21324,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "AnyObject.Type?",
+                "printedName": "(any AnyObject.Type)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -20870,7 +21857,7 @@
           {
             "kind": "Function",
             "name": "showRecipeCard",
-            "printedName": "showRecipeCard(recipeId:)",
+            "printedName": "showRecipeCard(recipeId:isMealzRecipe:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -20882,11 +21869,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK42StandaloneRecipeCardNavCoordinatorProtocolP04showeF08recipeIdySS_tF",
-            "mangledName": "$s14MealzNaviOSSDK42StandaloneRecipeCardNavCoordinatorProtocolP04showeF08recipeIdySS_tF",
+            "usr": "s:14MealzNaviOSSDK42StandaloneRecipeCardNavCoordinatorProtocolP04showeF08recipeId02isaE0ySS_SbtF",
+            "mangledName": "$s14MealzNaviOSSDK42StandaloneRecipeCardNavCoordinatorProtocolP04showeF08recipeId02isaE0ySS_SbtF",
             "moduleName": "MealzNaviOSSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.StandaloneRecipeCardNavCoordinatorProtocol>",
             "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.StandaloneRecipeCardNavCoordinatorProtocol>",
@@ -20961,90 +21954,6 @@
       },
       {
         "kind": "Import",
-        "name": "mealzcore",
-        "printedName": "mealzcore",
-        "declKind": "Import",
-        "moduleName": "MealzNaviOSSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MealzNaviOSSDKBundle",
-        "printedName": "MealzNaviOSSDKBundle",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MealzNaviOSSDKBundle",
-                "printedName": "MealzNaviOSSDK.MealzNaviOSSDKBundle",
-                "usr": "s:14MealzNaviOSSDK0aB11OSSDKBundleV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK0aB11OSSDKBundleVACycfc",
-            "mangledName": "$s14MealzNaviOSSDK0aB11OSSDKBundleVACycfc",
-            "moduleName": "MealzNaviOSSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "bundle",
-            "printedName": "bundle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14MealzNaviOSSDK0aB11OSSDKBundleV6bundleSo8NSBundleCvpZ",
-            "mangledName": "$s14MealzNaviOSSDK0aB11OSSDKBundleV6bundleSo8NSBundleCvpZ",
-            "moduleName": "MealzNaviOSSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14MealzNaviOSSDK0aB11OSSDKBundleV6bundleSo8NSBundleCvgZ",
-                "mangledName": "$s14MealzNaviOSSDK0aB11OSSDKBundleV6bundleSo8NSBundleCvgZ",
-                "moduleName": "MealzNaviOSSDK",
-                "static": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:14MealzNaviOSSDK0aB11OSSDKBundleV",
-        "mangledName": "$s14MealzNaviOSSDK0aB11OSSDKBundleV",
-        "moduleName": "MealzNaviOSSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -21082,7 +21991,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(recipeId:recipeCardConstructor:recipeDetailsConstructor:)",
+            "printedName": "init(recipeId:isMealzRecipe:recipeCardConstructor:recipeDetailsConstructor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -21095,6 +22004,13 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -21112,8 +22028,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK0A27StandaloneRecipeCardSwiftUIV8recipeId0iF11Constructor0i7DetailsK0ACSS_AA0defK0VAA0el7FeatureK0Vtcfc",
-            "mangledName": "$s14MealzNaviOSSDK0A27StandaloneRecipeCardSwiftUIV8recipeId0iF11Constructor0i7DetailsK0ACSS_AA0defK0VAA0el7FeatureK0Vtcfc",
+            "usr": "s:14MealzNaviOSSDK0A27StandaloneRecipeCardSwiftUIV8recipeId02isaE00iF11Constructor0i7DetailsL0ACSS_SbAA0defL0VAA0em7FeatureL0Vtcfc",
+            "mangledName": "$s14MealzNaviOSSDK0A27StandaloneRecipeCardSwiftUIV8recipeId02isaE00iF11Constructor0i7DetailsL0ACSS_SbAA0defL0VAA0em7FeatureL0Vtcfc",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -21816,7 +22732,7 @@
           {
             "kind": "Function",
             "name": "showRecipeCard",
-            "printedName": "showRecipeCard(recipeId:)",
+            "printedName": "showRecipeCard(recipeId:isMealzRecipe:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -21828,11 +22744,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC04showeF08recipeIdySS_tF",
-            "mangledName": "$s14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC04showeF08recipeIdySS_tF",
+            "usr": "s:14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC04showeF08recipeId02isaE0ySS_SbtF",
+            "mangledName": "$s14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC04showeF08recipeId02isaE0ySS_SbtF",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -21894,7 +22816,7 @@
           {
             "kind": "Function",
             "name": "presentRecipeDetails",
-            "printedName": "presentRecipeDetails(recipeId:isForMealPlanner:)",
+            "printedName": "presentRecipeDetails(recipeId:isMealzRecipe:isForMealPlanner:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -21911,13 +22833,19 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC07presentE7Details8recipeId16isForMealPlannerySS_SbtF",
-            "mangledName": "$s14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC07presentE7Details8recipeId16isForMealPlannerySS_SbtF",
+            "usr": "s:14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC07presentE7Details8recipeId02isaE00M14ForMealPlannerySS_S2btF",
+            "mangledName": "$s14MealzNaviOSSDK34StandaloneRecipeCardNavCoordinatorC07presentE7Details8recipeId02isaE00M14ForMealPlannerySS_S2btF",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl",
@@ -22379,1852 +23307,690 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/BasketTagViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1132,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
+      "offset": 835,
+      "length": 16,
+      "value": "\"MealzNaviOSSDK\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/BasketTagViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2535,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1264,
+      "length": 9,
+      "value": "\".bundle\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/BasketTagViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 43,
+      "value": "\"Unable to find bundle named \""
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/BasketTagViewController.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 23,
       "value": "\"MealzNaviOSSDK.BasketTagViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/StandaloneRecipeCardViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1192,
-      "length": 69,
-      "value": "\"You must pass in a recipeID, recipe, or criteria for the recipeCard\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/StandaloneRecipeCardViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1625,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/StandaloneRecipeCardViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2928,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/StandaloneRecipeCardViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/StandaloneRecipeCardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3956,
-      "length": 5,
-      "value": "false"
+      "offset": 738,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/StandaloneRecipeCardViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/StandaloneRecipeCardViewController.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 34,
       "value": "\"MealzNaviOSSDK.StandaloneRecipeCardViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1376,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2786,
-      "length": 17,
-      "value": "\"favorites_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2851,
-      "length": 32,
-      "value": "\"Title for the FAVORITES screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2969,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3032,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3492,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/FavoritesViewController.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 23,
       "value": "\"MealzNaviOSSDK.FavoritesViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 684,
+      "offset": 749,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1346,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3243,
-      "length": 22,
-      "value": "\"recipe_details_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3313,
-      "length": 37,
-      "value": "\"Title for the RECIPE.DETAILS screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3436,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3499,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3959,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeDetailsViewController.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 27,
       "value": "\"MealzNaviOSSDK.RecipeDetailsViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 745,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1121,
-      "length": 66,
-      "value": "\"You must pass in a productId or criteria for the recipe carousel\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1586,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3539,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3569,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4295,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/RecipeCarouselViewController.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 28,
       "value": "\"MealzNaviOSSDK.RecipeCarouselViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1059,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1574,
-      "length": 3,
-      "value": "400"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2294,
-      "length": 21,
-      "value": "\"item_selector_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2363,
-      "length": 36,
-      "value": "\"Title for the ITEM.SELECTOR screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2485,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2548,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3008,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/ItemSelectorViewController.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 26,
       "value": "\"MealzNaviOSSDK.ItemSelectorViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1266,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1890,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3012,
-      "length": 20,
-      "value": "\"meal_planner_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3080,
-      "length": 35,
-      "value": "\"Title for the MEAL.PLANNER screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3201,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3264,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3656,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecipePickerViewController.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 37,
       "value": "\"MealzNaviOSSDK.MealPlannerRecipePickerViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 890,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1729,
-      "length": 20,
-      "value": "\"meal_planner_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1797,
-      "length": 35,
-      "value": "\"Title for the MEAL.PLANNER screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1918,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1981,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2373,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3024,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerRecapPurchaseViewController.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 38,
       "value": "\"MealzNaviOSSDK.MealPlannerRecapPurchaseViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1298,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2364,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3226,
-      "length": 20,
-      "value": "\"meal_planner_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3294,
-      "length": 35,
-      "value": "\"Title for the MEAL.PLANNER screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3415,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3478,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3938,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerBasketViewController.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 31,
       "value": "\"MealzNaviOSSDK.MealPlannerBasketViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1120,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1736,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2851,
-      "length": 20,
-      "value": "\"meal_planner_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2919,
-      "length": 35,
-      "value": "\"Title for the MEAL.PLANNER screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3040,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3103,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3563,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerResultsViewController.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 32,
       "value": "\"MealzNaviOSSDK.MealPlannerResultsViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerFormViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 889,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerFormViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1891,
-      "length": 20,
-      "value": "\"meal_planner_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerFormViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1959,
-      "length": 35,
-      "value": "\"Title for the MEAL.PLANNER screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerFormViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2062,
-      "length": 28,
-      "value": "\"Mon assistant budget repas\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerFormViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2534,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerFormViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MealPlanner\/MealPlannerFormViewController.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 29,
       "value": "\"MealzNaviOSSDK.MealPlannerFormViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2157,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4709,
-      "length": 16,
-      "value": "\"my_meals_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4773,
-      "length": 31,
-      "value": "\"Title for the MY.MEALS screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4890,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4953,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5413,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyBasket\/MyBasketViewController.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 22,
       "value": "\"MealzNaviOSSDK.MyBasketViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1491,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2936,
-      "length": 16,
-      "value": "\"my_meals_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3000,
-      "length": 31,
-      "value": "\"Title for the MY.MEALS screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3117,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3180,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3640,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/MyMeals\/MyMealsViewController.swift",
       "kind": "StringLiteral",
       "offset": 222,
       "length": 21,
       "value": "\"MealzNaviOSSDK.MyMealsViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 760,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1260,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1276,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1362,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1425,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1885,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/SponsorDetailsViewController.swift",
       "kind": "StringLiteral",
       "offset": 229,
       "length": 28,
       "value": "\"MealzNaviOSSDK.SponsorDetailsViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 899,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1881,
-      "length": 14,
-      "value": "\"search_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1943,
-      "length": 29,
-      "value": "\"Title for the SEARCH screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2058,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2121,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2581,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesSearchViewController.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 31,
       "value": "\"MealzNaviOSSDK.PreferencesSearchViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 850,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2039,
-      "length": 19,
-      "value": "\"preferences_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2106,
-      "length": 34,
-      "value": "\"Title for the PREFERENCES screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2226,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2289,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2749,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/PreferencesViewController.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 25,
       "value": "\"MealzNaviOSSDK.PreferencesViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1992,
-      "length": 15,
-      "value": "\"filters_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2055,
-      "length": 30,
-      "value": "\"Title for the FILTERS screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2171,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2234,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2694,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/FiltersViewController.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 26,
       "value": "\"MealzNaviOSSDK.MealzFiltersViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1011,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1567,
-      "length": 22,
-      "value": "\"search_results_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1637,
-      "length": 30,
-      "value": "\"Title for the catalog screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2208,
-      "length": 14,
-      "value": "\"search_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2270,
-      "length": 29,
-      "value": "\"Title for the SEARCH screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2385,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2448,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2908,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogSearchViewController.swift",
       "kind": "StringLiteral",
       "offset": 228,
       "length": 27,
       "value": "\"MealzNaviOSSDK.CatalogSearchViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 883,
       "length": 23,
       "value": "\"catalog_results_title\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 942,
       "length": 30,
       "value": "\"Title for the catalog screen\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1937,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3733,
-      "length": 15,
-      "value": "\"return_button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3796,
-      "length": 15,
-      "value": "\"Return Button\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4350,
-      "length": 5,
-      "value": "false"
+      "offset": 1486,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogResultsViewController.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 28,
       "value": "\"MealzNaviOSSDK.CatalogResultsViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 823,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2076,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2820,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4956,
-      "length": 15,
-      "value": "\"catalog_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5019,
-      "length": 30,
-      "value": "\"Title for the CATALOG screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5698,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/Catalog\/CatalogViewController.swift",
       "kind": "StringLiteral",
       "offset": 1109,
       "length": 21,
       "value": "\"MealzNaviOSSDK.CatalogViewController\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
       "kind": "BooleanLiteral",
       "offset": 804,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1399,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 28,
       "value": "\"MealzNaviOSSDK.MealzMealPlannerFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 28,
       "value": "\"MealzNaviOSSDK.MealzMealPlannerFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 28,
       "value": "\"MealzNaviOSSDK.MealzMealPlannerFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3528,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3918,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4398,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4844,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5166,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5532,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5649,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealPlannerFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 229,
       "length": 32,
       "value": "\"MealzNaviOSSDK.MealPlannerFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MealPlanner\/MealzMealPlannerFeatureSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 380,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1538,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1711,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 26,
       "value": "\"MealzNaviOSSDK.MealzBasketTagFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 26,
       "value": "\"MealzNaviOSSDK.MealzBasketTagFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 26,
       "value": "\"MealzNaviOSSDK.MealzBasketTagFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/BasketTagFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2198,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/BasketTagFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 2277,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/BasketTagFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2578,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/BasketTagFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/BasketTagFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 30,
       "value": "\"MealzNaviOSSDK.BasketTagFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/BasketTag\/MealzBasketTagFeatureSwiftUI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 926,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
       "kind": "BooleanLiteral",
       "offset": 759,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1327,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 25,
       "value": "\"MealzNaviOSSDK.MealzMyBasketFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 25,
       "value": "\"MealzNaviOSSDK.MealzMyBasketFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MealzMyBasketFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 145,
       "length": 25,
       "value": "\"MealzNaviOSSDK.MealzMyBasketFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MyBasketFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3609,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MyBasketFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyBasket\/MyBasketFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 29,
       "value": "\"MealzNaviOSSDK.MyBasketFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 426,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureSwiftUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 1264,
+      "offset": 489,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1261,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1684,
+      "offset": 1869,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1794,
+      "offset": 1908,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2668,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2995,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/RecipeDetailsFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 34,
       "value": "\"MealzNaviOSSDK.RecipeDetailsFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 715,
+      "offset": 718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 751,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1147,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 30,
       "value": "\"MealzNaviOSSDK.MealzRecipeDetailsFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 30,
       "value": "\"MealzNaviOSSDK.MealzRecipeDetailsFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeDetails\/MealzRecipeDetailsFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 30,
       "value": "\"MealzNaviOSSDK.MealzRecipeDetailsFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2627,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 28,
       "value": "\"MealzNaviOSSDK.MyMealsFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
       "kind": "BooleanLiteral",
       "offset": 748,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1312,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 141,
       "length": 24,
       "value": "\"MealzNaviOSSDK.MealzMyMealsFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 141,
       "length": 24,
       "value": "\"MealzNaviOSSDK.MealzMyMealsFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 141,
       "length": 24,
       "value": "\"MealzNaviOSSDK.MealzMyMealsFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MealzMyMealsFeatureSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 371,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureConstructor.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureConstructor.swift",
       "kind": "IntegerLiteral",
       "offset": 274,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureConstructor.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureConstructor.swift",
       "kind": "IntegerLiteral",
       "offset": 313,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureConstructor.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/MyMeals\/MyMealsFeatureConstructor.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 3,
       "value": "180"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 375,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/FavoritesFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2515,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/FavoritesFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 2594,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/FavoritesFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2895,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/FavoritesFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/FavoritesFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 30,
       "value": "\"MealzNaviOSSDK.FavoritesFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
       "kind": "BooleanLiteral",
       "offset": 788,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 1335,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 26,
       "value": "\"MealzNaviOSSDK.MealzFavoritesFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 26,
       "value": "\"MealzNaviOSSDK.MealzFavoritesFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Favorites\/MealzFavoritesFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 26,
       "value": "\"MealzNaviOSSDK.MealzFavoritesFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureSwiftUI.swift",
       "kind": "BooleanLiteral",
       "offset": 462,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
       "kind": "BooleanLiteral",
       "offset": 1509,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 2558,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 24,
       "value": "\"MealzNaviOSSDK.MealzCatalogFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 24,
       "value": "\"MealzNaviOSSDK.MealzCatalogFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/MealzCatalogFeatureUIKit.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 24,
       "value": "\"MealzNaviOSSDK.MealzCatalogFeatureUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureConstructor.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureConstructor.swift",
       "kind": "BooleanLiteral",
       "offset": 929,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureConstructor.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureConstructor.swift",
       "kind": "BooleanLiteral",
       "offset": 968,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 5110,
+      "offset": 6795,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 5333,
-      "length": 23,
-      "value": "\"catalog_results_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 5404,
-      "length": 30,
-      "value": "\"Title for the catalog screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5624,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6272,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6439,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6631,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 6750,
-      "length": 17,
-      "value": "\"favorites_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 6815,
-      "length": 17,
-      "value": "\"Favorites Title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 6891,
-      "length": 23,
-      "value": "\"catalog_results_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 6962,
-      "length": 23,
-      "value": "\"Catalog Results Title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7571,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7891,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8242,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 8597,
-      "length": 23,
-      "value": "\"filters_results_title\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 8668,
-      "length": 30,
-      "value": "\"Title for the catalog screen\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8795,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9180,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9636,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Catalog\/CatalogFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 28,
       "value": "\"MealzNaviOSSDK.CatalogFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/RecipeCarouselFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2897,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/RecipeCarouselFeatureNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 2976,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/RecipeCarouselFeatureNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3277,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/RecipeCarouselFeatureNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/RecipeCarouselFeatureNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 35,
       "value": "\"MealzNaviOSSDK.RecipeCarouselFeatureNavCoordinator\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 31,
+      "value": "\"MealzNaviOSSDK.MealzRecipeCarouselFeatureUIKit\""
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 31,
+      "value": "\"MealzNaviOSSDK.MealzRecipeCarouselFeatureUIKit\""
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 31,
+      "value": "\"MealzNaviOSSDK.MealzRecipeCarouselFeatureUIKit\""
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/TransferBasket\/TransferBasketFeature.swift",
       "kind": "BooleanLiteral",
-      "offset": 2011,
+      "offset": 395,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/TransferBasket\/TransferBasketFeature.swift",
       "kind": "BooleanLiteral",
-      "offset": 2159,
-      "length": 4,
-      "value": "true"
+      "offset": 449,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 2332,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 170,
-      "length": 31,
-      "value": "\"MealzNaviOSSDK.MealzRecipeCarouselFeatureUIKit\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 170,
-      "length": 31,
-      "value": "\"MealzNaviOSSDK.MealzRecipeCarouselFeatureUIKit\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCarousel\/MealzRecipeCarouselFeatureUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 170,
-      "length": 31,
-      "value": "\"MealzNaviOSSDK.MealzRecipeCarouselFeatureUIKit\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardConstructor.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardConstructor.swift",
       "kind": "IntegerLiteral",
       "offset": 639,
       "length": 3,
       "value": "360"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardConstructor.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardConstructor.swift",
       "kind": "IntegerLiteral",
       "offset": 652,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
       "kind": "BooleanLiteral",
-      "offset": 2662,
+      "offset": 880,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
-      "kind": "StringLiteral",
-      "offset": 2833,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 30,
       "value": "\"MealzNaviOSSDK.MealzStandaloneRecipeCardUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 30,
       "value": "\"MealzNaviOSSDK.MealzStandaloneRecipeCardUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardUIKit.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 30,
       "value": "\"MealzNaviOSSDK.MealzStandaloneRecipeCardUIKit\""
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardSwiftUI.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/MealzStandaloneRecipeCardSwiftUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 2586,
+      "offset": 604,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1713,
+      "offset": 2846,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2139,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2584,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2746,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3014,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
-      "kind": "StringLiteral",
-      "offset": 3093,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3389,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/RecipeCard\/StandaloneRecipeCardNavCoordinator.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 34,
       "value": "\"MealzNaviOSSDK.StandaloneRecipeCardNavCoordinator\""
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Base\/MealzBaseNavCoordinator.swift",
-      "kind": "IntegerLiteral",
-      "offset": 789,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Base\/MealzBaseNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 945,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Base\/MealzBaseNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1118,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/diarmuidmcgonagle\/sources\/mealz\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/NavCoordinators\/Base\/MealzBaseNavCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1374,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

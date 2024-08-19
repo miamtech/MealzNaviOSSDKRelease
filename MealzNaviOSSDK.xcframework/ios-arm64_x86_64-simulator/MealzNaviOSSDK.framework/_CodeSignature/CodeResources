@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/MealzNaviOSSDK-Swift.h</key>
 		<data>
-		qKlIXpdEVAfzyCxSu6fcfFEklvc=
+		H3QR4U+IHYp5ORbSwDfGh5wtoQY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eDxFz7xZK6QKz5B+cvhms5GKC/o=
+		h4W39nF4Y8UK0cEAlWp7+WQh230=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bCuuXVNEMVxn4IECRiKvA7cyw/0=
+		3gA+nXf+UVcvft1eJ5exGK22DWE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		W1FNRU2Uy6H45sUL/D6Rfyerm/E=
+		o85ehwS8EIXT1GEGF8ePLus1JQI=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nhyj8Oe0ORHVLoKVyNgCbpr+pJ8=
+		Mt5IhharHcr7W5R+zsnH9SpeGF0=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		W1FNRU2Uy6H45sUL/D6Rfyerm/E=
+		o85ehwS8EIXT1GEGF8ePLus1JQI=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KkXSWOKuDuqFQfewvh0IzlxcBhY=
+		UD3T+eIKZVvkF4v/eD9KAaxfSTo=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bCuuXVNEMVxn4IECRiKvA7cyw/0=
+		3gA+nXf+UVcvft1eJ5exGK22DWE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Oq3j64ojvWDq0ppFkyYmSNO25C4=
+		D7mFpsDb3J1KxKBPDGSfvCMfyrE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MlB+wwLBZCxNrP/6/F3ujWlQfxU=
+		/5kM3PmFI3r7Z8OvJYkAcmzAYQE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Oq3j64ojvWDq0ppFkyYmSNO25C4=
+		D7mFpsDb3J1KxKBPDGSfvCMfyrE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F6eHf2XeYrL2TPK3wN/DgeG4i0k=
+		Hnv6apB+a/nnavYVcDjcAdibzs4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,17 +62,26 @@
 		</data>
 		<key>build_xcframework.sh</key>
 		<data>
-		6Y+kK3WiG8QjnCiHHsTvnaj59+w=
+		Dfl2Vpii2/IV1tXeakazkoDG5EQ=
 		</data>
 		<key>changelog.md</key>
 		<data>
-		wn+3Qf05Nl5KSUDMwVu6EE7kkc8=
+		QCphs/Tk5hw5drpqg4901XS1/mk=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QjHuGYvb/hTA0rsp+1Fa/icaU4s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s8oN3fMdpZqd90vvIRP1ZNnb7lo=
+			XQUKpEqhOANM+Oz085pK5tnXwtw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -84,77 +93,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i4QWvjkkB0Kjka9g+IK+rYLe5vmRvG/NkHpsO/XTiQA=
+			imQAr5Ts9V/fsJha0YPJoUgFeNJUmS11Z58cQF5oDy8=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/A8sXy+VEt/UDvQyIVls67n3738PtqSfXu81u+AfIX4=
+			bX/H86hkxLO1BzjlpHhHnEFYREQLL57acnPcKr10Kvw=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aTwWd/4vp2GUkfOUWOF6y5IHV0nTAsntAKma62/ddoA=
+			6U7MxoVBYN1ybaRrkWa0uD+Zye/FWSlm3PMscjtjDio=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K69yUN2iVJl2QmUAq/Q1EpHSXf3BHmwePS/tOcw5ONI=
+			9y5rxCRr6xv/AqT4fAOiisb29bwS4CZu/vCgdr+9uv8=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aTwWd/4vp2GUkfOUWOF6y5IHV0nTAsntAKma62/ddoA=
+			6U7MxoVBYN1ybaRrkWa0uD+Zye/FWSlm3PMscjtjDio=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b9yWnh340RN6uJcnb8yjePQGm8QmiKDZqCHeeJAvRt8=
+			bCYBYEPe9LAcbdI53RX1Vbr5XTqqW87bJziNGTl8ywA=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/A8sXy+VEt/UDvQyIVls67n3738PtqSfXu81u+AfIX4=
+			bX/H86hkxLO1BzjlpHhHnEFYREQLL57acnPcKr10Kvw=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JJaa2iSqx8nuS/8U9sPaKvtGQinqAsvKjuiUjQI3YIk=
+			1RmtGDmP4lK7lG/KmsgGFEqKL82Z12rL8zydsNXfN0s=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			srlMCyL0QjoZto2YgmbK8QO7EFW4E4GRvW8zPdVh8Vg=
+			5E6mtOAtkXhJn+6MrfoGY2YGZsrMVTkobuy/RUcflrQ=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JJaa2iSqx8nuS/8U9sPaKvtGQinqAsvKjuiUjQI3YIk=
+			1RmtGDmP4lK7lG/KmsgGFEqKL82Z12rL8zydsNXfN0s=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3eg1xKvF6cgpcOO20PgdTXeH3aUMLSmSO5odrjxMzMI=
+			1URX9fnnzhS6mm/kCiTCae4E/B0uTFWhug8vUgWPnWM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -175,21 +184,30 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+dY8r34vhtDvcaaZHhCr4iJ1WCUQCrnlvO7SCRXD7Y=
+			cI/G14Xv2U/merlACrIqBXDOTV/vVSVL/OpIqdc6XHY=
 			</data>
 		</dict>
 		<key>changelog.md</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wu1hx5mh5EFte3wju3CQ18ZgHCaT9dItDuRmRiD4Tow=
+			Cwst9sMisqRSjMyBP1H0wuhN+vFLoCutHiVodgnz/i4=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/2VQ0dGRl+wcNd930FNmU1wW5TairCTJLwrrJOO37PY=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eKx5v/duOGnpBxVAqjh1/bJZhGuYCWDh8nPS9M9eDJQ=
+			jpjhjX36EGBk1Gyhg14ZYadC3AzwKLIbxWs3hJGRn/g=
 			</data>
 			<key>optional</key>
 			<true/>

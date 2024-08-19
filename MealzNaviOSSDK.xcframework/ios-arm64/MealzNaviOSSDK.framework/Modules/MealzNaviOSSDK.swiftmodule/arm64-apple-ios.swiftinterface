@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MealzNaviOSSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MealzNaviOSSDK
 import CoreGraphics
 import Foundation
 import MealzUIiOSSDK
@@ -31,6 +30,7 @@ public protocol MealPlannerFeatureNavCoordinatorProtocol {
   var basketRecipeViewOptions: MealzUIiOSSDK.BasketRecipeViewOptions { get set }
   var mealPlannerRecapViewOptions: MealzUIiOSSDK.MealPlannerRecapViewOptions { get set }
   var filtersViewOptions: MealzUIiOSSDK.FiltersViewOptions { get set }
+  var finalNavigationMethod: (() -> Swift.Void)? { get set }
   var basketRecipeGridConfig: MealziOSSDK.BasketRecipesGridConfig { get set }
   var mealPlannerRecipesListGridConfig: MealziOSSDK.MealPlannerRecipesListGridConfig { get set }
   var catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig { get set }
@@ -56,6 +56,7 @@ public class MealPlannerFeatureNavCoordinator : MealzNaviOSSDK.MealzBaseNavCoord
   public var basketRecipeViewOptions: MealzUIiOSSDK.BasketRecipeViewOptions
   public var mealPlannerRecapViewOptions: MealzUIiOSSDK.MealPlannerRecapViewOptions
   public var filtersViewOptions: MealzUIiOSSDK.FiltersViewOptions
+  public var finalNavigationMethod: (() -> Swift.Void)?
   public var basketRecipeGridConfig: MealziOSSDK.BasketRecipesGridConfig
   public var mealPlannerRecipesListGridConfig: MealziOSSDK.MealPlannerRecipesListGridConfig
   public var catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig
@@ -85,7 +86,7 @@ public struct MealPlannerFeatureConstructor {
   public var basketRecipeGridConfig: MealziOSSDK.BasketRecipesGridConfig
   public var mealPlannerRecipesListGridConfig: MealziOSSDK.MealPlannerRecipesListGridConfig
   public var catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig
-  public init(baseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), mealPlannerFormViewOptions: MealzUIiOSSDK.MealPlannerFormViewOptions = MealPlannerFormViewOptions(), mealPlannerResultsViewOptions: MealzUIiOSSDK.MealPlannerResultsViewOptions = MealPlannerResultsViewOptions(), mealPlannerRecipePickerViewOptions: MealzUIiOSSDK.MealPlannerRecipePickerViewOptions = MealPlannerRecipePickerViewOptions(), mealPlannerBasketViewOptions: MealzUIiOSSDK.MealPlannerBasketViewOptions = MealPlannerBasketViewOptions(), basketRecipeViewOptions: MealzUIiOSSDK.BasketRecipeViewOptions = BasketRecipeViewOptions(), mealPlannerRecapViewOptions: MealzUIiOSSDK.MealPlannerRecapViewOptions = MealPlannerRecapViewOptions(), filtersViewOptions: MealzUIiOSSDK.FiltersViewOptions = FiltersViewOptions(), basketRecipeGridConfig: MealziOSSDK.BasketRecipesGridConfig = BasketRecipesGridConfig(), mealPlannerRecipesListGridConfig: MealziOSSDK.MealPlannerRecipesListGridConfig = MealPlannerRecipesListGridConfig(), catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig = CatalogRecipesListGridConfig())
+  public init(baseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), mealPlannerFormViewOptions: MealzUIiOSSDK.MealPlannerFormViewOptions = MealPlannerFormViewOptions(), mealPlannerResultsViewOptions: MealzUIiOSSDK.MealPlannerResultsViewOptions = MealPlannerResultsViewOptions(), mealPlannerRecipePickerViewOptions: MealzUIiOSSDK.MealPlannerRecipePickerViewOptions = MealPlannerRecipePickerViewOptions(), mealPlannerBasketViewOptions: MealzUIiOSSDK.MealPlannerBasketViewOptions = MealPlannerBasketViewOptions(), basketRecipeViewOptions: MealzUIiOSSDK.BasketRecipeViewOptions = BasketRecipeViewOptions(), mealPlannerRecapViewOptions: MealzUIiOSSDK.MealPlannerRecapViewOptions = MealPlannerRecapViewOptions(), filtersViewOptions: MealzUIiOSSDK.FiltersViewOptions = FiltersViewOptions(), basketRecipeGridConfig: MealziOSSDK.BasketRecipesGridConfig = BasketRecipesGridConfig(), mealPlannerRecipesListGridConfig: MealziOSSDK.MealPlannerRecipesListGridConfig = MealPlannerRecipesListGridConfig(), catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig = CatalogRecipesListGridConfig(), finalNavigationMethod: (() -> Swift.Void)? = nil)
 }
 @available(iOS 14, *)
 public struct BasketTagFeatureConstructor {
@@ -139,12 +140,13 @@ public protocol MyBasketFeatureNavCoordinatorProtocol {
   var myMealsBaseViews: MealzUIiOSSDK.BasePageViewParameters { get set }
   var navigateToCatalog: () -> Swift.Void { get set }
   var navigateToCheckout: (Swift.String?) -> Swift.Void { get set }
+  var myMealsCTANavigation: (() -> Swift.Void)? { get set }
   var catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig { get set }
   func showMyBasket()
 }
 @available(iOS 14, *)
 public struct MyBasketFeatureConstructor {
-  public init(myBasketViewOptions: MealzUIiOSSDK.MyBasketViewOptions = MyBasketViewOptions(), myBasketBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myMealsViewOptions: MealzUIiOSSDK.MyMealsViewOptions = MyMealsViewOptions(nestedOptions: NestedMyMealsViewOptions()), myMealsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myProductsViewOptions: MealzUIiOSSDK.MyProductsViewOptions = MyProductsViewOptions(), myProductsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig = myMealsDefaultRecipesListGridConfig, navigateToCatalog: @escaping () -> Swift.Void, navigateToCheckout: @escaping (Swift.String?) -> Swift.Void)
+  public init(myBasketViewOptions: MealzUIiOSSDK.MyBasketViewOptions = MyBasketViewOptions(), myBasketBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myMealsViewOptions: MealzUIiOSSDK.MyMealsViewOptions = MyMealsViewOptions(nestedOptions: NestedMyMealsViewOptions()), myMealsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myProductsViewOptions: MealzUIiOSSDK.MyProductsViewOptions = MyProductsViewOptions(), myProductsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig = myMealsDefaultRecipesListGridConfig, navigateToCatalog: @escaping () -> Swift.Void, navigateToCheckout: @escaping (Swift.String?) -> Swift.Void, myMealsCTANavigation: (() -> Swift.Void)? = nil)
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 14, *)
 @_Concurrency.MainActor(unsafe) public class MealzMyBasketFeatureUIKit : UIKit.UINavigationController {
@@ -161,6 +163,7 @@ public class MyBasketFeatureNavCoordinator : MealzNaviOSSDK.MealzBaseNavCoordina
   public var myProductsBaseViews: MealzUIiOSSDK.BasePageViewParameters
   public var navigateToCatalog: () -> Swift.Void
   public var navigateToCheckout: (Swift.String?) -> Swift.Void
+  public var myMealsCTANavigation: (() -> Swift.Void)?
   public var recipeDetailsCoordinator: MealzNaviOSSDK.RecipeDetailsFeatureNavCoordinator
   public var catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig
   public init(baseConstructor: MealzNaviOSSDK.MealzBaseNavCoordinator.Constructor, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor(), myBasketContructor: MealzNaviOSSDK.MyBasketFeatureConstructor)
@@ -173,13 +176,13 @@ public protocol RecipeDetailsNavCoordinatorProtocol {
   var recipeDetailsViewOptions: MealzUIiOSSDK.RecipeDetailsViewOptions { get set }
   var recipeDetailsProductViewOptions: MealzUIiOSSDK.RecipeDetailsProductViewOptions { get set }
   var itemSelectorViewOptions: MealzUIiOSSDK.ItemSelectorViewOptions { get set }
-  func showRecipeDetails(recipeId: Swift.String, isForMealPlanner: Swift.Bool)
+  func showRecipeDetails(recipeId: Swift.String, isMealzRecipe: Swift.Bool, isForMealPlanner: Swift.Bool)
   func showItemSelector(ingredientId: Swift.String?, basketEntryId: Swift.String?)
   func showSponsorDetails(sponsor: mealzcore.Sponsor)
 }
 @available(iOS 14, *)
 public struct MealzRecipeDetailsFeatureSwiftUI : SwiftUI.UIViewControllerRepresentable {
-  public init(hideTitles: Swift.Bool = false, recipeId: Swift.String, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
+  public init(hideTitles: Swift.Bool = false, recipeId: Swift.String, isMealzRecipe: Swift.Bool = true, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
   @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: MealzNaviOSSDK.MealzRecipeDetailsFeatureSwiftUI.Context) -> UIKit.UINavigationController
   @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: UIKit.UINavigationController, context: MealzNaviOSSDK.MealzRecipeDetailsFeatureSwiftUI.Context)
   public typealias Body = Swift.Never
@@ -197,15 +200,15 @@ public class RecipeDetailsFeatureNavCoordinator : MealzNaviOSSDK.MealzBaseNavCoo
   public var recipeDetailsProductViewOptions: MealzUIiOSSDK.RecipeDetailsProductViewOptions
   public var itemSelectorViewOptions: MealzUIiOSSDK.ItemSelectorViewOptions
   public init(baseConstructor: MealzNaviOSSDK.MealzBaseNavCoordinator.Constructor, recipeDetailsFeatureConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
-  public func showRecipeDetails(recipeId: Swift.String, isForMealPlanner: Swift.Bool = false)
-  public func setRecipeDetails(recipeId: Swift.String, isForMealPlanner: Swift.Bool = false)
+  public func showRecipeDetails(recipeId: Swift.String, isMealzRecipe: Swift.Bool = true, isForMealPlanner: Swift.Bool = false)
+  public func setRecipeDetails(recipeId: Swift.String, isMealzRecipe: Swift.Bool = true, isForMealPlanner: Swift.Bool = false)
   public func showItemSelector(ingredientId: Swift.String?, basketEntryId: Swift.String?)
   public func showSponsorDetails(sponsor: mealzcore.Sponsor)
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 14, *)
 @_Concurrency.MainActor(unsafe) public class MealzRecipeDetailsFeatureUIKit : UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) public init(recipeId: Swift.String, hideTitles: Swift.Bool = false, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
+  @_Concurrency.MainActor(unsafe) public init(recipeId: Swift.String, isMealzRecipe: Swift.Bool = true, hideTitles: Swift.Bool = false, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
   @objc deinit
 }
 @available(iOS 14, *)
@@ -320,7 +323,7 @@ public protocol CatalogFeatureNavCoordinatorProtocol {
   var catalogResultsGridConfig: MealziOSSDK.CatalogRecipesListGridConfig { get set }
   var myMealsRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig { get set }
   func showCatalog(catalogId: Swift.String?, categoryTitle: Swift.String?)
-  func showCatalogResults(title: Swift.String?, catalogId: Swift.String?, categoryTitle: Swift.String?, isFavorite: Swift.Bool)
+  func showCatalogResults(title: Swift.String?, catalogId: Swift.String?, categoryTitle: Swift.String?, categorySubtitle: Swift.String?, isFavorite: Swift.Bool)
   func showPreferences()
   func showPreferencesSearch()
   func showFilters(filterInstance: mealzcore.FilterInstance)
@@ -345,8 +348,8 @@ public class CatalogFeatureNavCoordinator : MealzNaviOSSDK.MealzBaseNavCoordinat
   public var myMealsRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig
   public init(baseConstructor: MealzNaviOSSDK.MealzBaseNavCoordinator.Constructor, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor(), catalogFeatureConstructor: MealzNaviOSSDK.CatalogFeatureConstructor = CatalogFeatureConstructor(), myMealsViewOptions: MealzUIiOSSDK.MyMealsViewOptions = MyMealsViewOptions(), myMealsRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig = myMealsDefaultRecipesListGridConfig, mealPlannerCoordinator: MealzNaviOSSDK.MealPlannerFeatureNavCoordinator? = nil)
   public func showCatalog(catalogId: Swift.String? = nil, categoryTitle: Swift.String? = nil)
-  public func showCatalogResultsFromSideView(title: Swift.String?, catalogId: Swift.String? = nil, categoryTitle: Swift.String? = nil)
-  public func showCatalogResults(title: Swift.String? = nil, catalogId: Swift.String? = nil, categoryTitle: Swift.String? = nil, isFavorite: Swift.Bool = false)
+  public func showCatalogResultsFromSideView(title: Swift.String?, catalogId: Swift.String? = nil, categoryTitle: Swift.String? = nil, categorySubtitle: Swift.String? = nil)
+  public func showCatalogResults(title: Swift.String? = nil, catalogId: Swift.String? = nil, categoryTitle: Swift.String? = nil, categorySubtitle: Swift.String? = nil, isFavorite: Swift.Bool = false)
   public func showPreferences()
   public func showPreferencesSearch()
   public func showFilters(filterInstance: mealzcore.FilterInstance)
@@ -395,13 +398,22 @@ public struct RecipeCarouselFeatureConstructor {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
+@available(iOS 14.0, *)
+@_Concurrency.MainActor(unsafe) public struct TransferBasketFeature : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(transferBasketAbortOrContinue: (any MealziOSSDK.TransferBasketAbortOrContinueViewProtocol)? = TransferBasketAbortOrContinueView(), transferBasketLoading: (any MealziOSSDK.TransferBasketLoadingViewProtocol)? = TransferBasketLoadingView(), transferBasketWebview: (any MealziOSSDK.TransferBasketWebviewProtocol)? = TransferBasketWebviewView(), transferBasketUrl: Foundation.URL, retailerName: Swift.String)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public func toUIKit() -> UIKit.UIViewController
+  public typealias Body = @_opaqueReturnTypeOf("$s14MealzNaviOSSDK21TransferBasketFeatureV4bodyQrvp", 0) __
+}
 @available(iOS 14, *)
 public struct StandaloneRecipeCardConstructor {
   public init(recipeCard: MealziOSSDK.TypeSafeCatalogRecipeCard = TypeSafeCatalogRecipeCard(MealzRecipeCard()), recipeCardLoading: MealziOSSDK.TypeSafeRecipeCardLoading = TypeSafeRecipeCardLoading(MealzRecipeCardLoading()), recipeCardDimensions: CoreFoundation.CGSize = CGSize(width: 360, height: 300))
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 14, *)
 @_Concurrency.MainActor(unsafe) public class MealzStandaloneRecipeCardUIKit : UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) public init(recipeId: Swift.String, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor(), recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor())
+  @_Concurrency.MainActor(unsafe) public init(recipeId: Swift.String, isMealzRecipe: Swift.Bool = true, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor(), recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor())
   @_Concurrency.MainActor(unsafe) public init(recipe: mealzcore.Recipe, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor(), recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor())
   @_Concurrency.MainActor(unsafe) public init(criteria: mealzcore.SuggestionsCriteria, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor(), recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor())
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
@@ -412,19 +424,13 @@ public protocol StandaloneRecipeCardNavCoordinatorProtocol {
   var recipeCard: MealziOSSDK.TypeSafeCatalogRecipeCard { get set }
   var recipeCardLoading: MealziOSSDK.TypeSafeRecipeCardLoading { get set }
   var recipeCardDimensions: CoreFoundation.CGSize { get set }
-  func showRecipeCard(recipeId: Swift.String)
+  func showRecipeCard(recipeId: Swift.String, isMealzRecipe: Swift.Bool)
   func showRecipeCard(recipe: mealzcore.Recipe)
   func showRecipeCard(criteria: mealzcore.SuggestionsCriteria)
 }
-public struct MealzNaviOSSDKBundle {
-  public init()
-  public static var bundle: Foundation.Bundle {
-    get
-  }
-}
 @available(iOS 14, *)
 public struct MealzStandaloneRecipeCardSwiftUI : SwiftUI.UIViewControllerRepresentable {
-  public init(recipeId: Swift.String, recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor(), recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
+  public init(recipeId: Swift.String, isMealzRecipe: Swift.Bool = true, recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor(), recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
   public init(recipe: mealzcore.Recipe, recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor(), recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
   public init(criteria: mealzcore.SuggestionsCriteria, recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor(), recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor())
   @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: MealzNaviOSSDK.MealzStandaloneRecipeCardSwiftUI.Context) -> UIKit.UIViewController
@@ -440,10 +446,10 @@ public class StandaloneRecipeCardNavCoordinator : MealzNaviOSSDK.MealzBaseNavCoo
   public var recipeCardDimensions: CoreFoundation.CGSize
   public var viewController: UIKit.UIViewController?
   public init(baseConstructor: MealzNaviOSSDK.MealzBaseNavCoordinator.Constructor, recipeDetailsConstructor: MealzNaviOSSDK.RecipeDetailsFeatureConstructor = RecipeDetailsFeatureConstructor(), recipeCardConstructor: MealzNaviOSSDK.StandaloneRecipeCardConstructor = StandaloneRecipeCardConstructor())
-  public func showRecipeCard(recipeId: Swift.String)
+  public func showRecipeCard(recipeId: Swift.String, isMealzRecipe: Swift.Bool)
   public func showRecipeCard(recipe: mealzcore.Recipe)
   public func showRecipeCard(criteria: mealzcore.SuggestionsCriteria)
-  public func presentRecipeDetails(recipeId: Swift.String, isForMealPlanner: Swift.Bool = false)
+  public func presentRecipeDetails(recipeId: Swift.String, isMealzRecipe: Swift.Bool, isForMealPlanner: Swift.Bool = false)
   @objc deinit
 }
 @available(iOS 14, *)

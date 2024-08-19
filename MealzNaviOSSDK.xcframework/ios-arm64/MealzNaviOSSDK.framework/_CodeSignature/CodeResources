@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/MealzNaviOSSDK-Swift.h</key>
 		<data>
-		1WeNBKTmvDTRZdaqb/zGQQLX/Zw=
+		vKnrrFx3kJcybURZViJH7SGk0o0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ChoOBj8qh6iaCtEM1KKlsIC4S4w=
+		/r+ibuES7nxUBv/eAH2hKtqu94M=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bCuuXVNEMVxn4IECRiKvA7cyw/0=
+		3gA+nXf+UVcvft1eJ5exGK22DWE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		i0Mi/nzBTwmWk6gSH7+xPUB88uM=
+		cbKPl32gyci248YDUFz0L4VJ7vE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ugZfXfvx3GEY09YkTGnWGmUntx0=
+		y5gj1n8vw0IQMK388ns9sNUmd4U=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		i0Mi/nzBTwmWk6gSH7+xPUB88uM=
+		cbKPl32gyci248YDUFz0L4VJ7vE=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uRMs2TaivdfZGd0eL589D+kHbG8=
+		8iI7yC5qPY2ayX1TiuCMaACaYaI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,17 +42,26 @@
 		</data>
 		<key>build_xcframework.sh</key>
 		<data>
-		6Y+kK3WiG8QjnCiHHsTvnaj59+w=
+		Dfl2Vpii2/IV1tXeakazkoDG5EQ=
 		</data>
 		<key>changelog.md</key>
 		<data>
-		wn+3Qf05Nl5KSUDMwVu6EE7kkc8=
+		QCphs/Tk5hw5drpqg4901XS1/mk=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QjHuGYvb/hTA0rsp+1Fa/icaU4s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s8oN3fMdpZqd90vvIRP1ZNnb7lo=
+			XQUKpEqhOANM+Oz085pK5tnXwtw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -64,42 +73,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8uzsfu+624EKg0nM8StXbpq5Jots3QbGL6y88VdvhEU=
+			Z+D/m2TTnyz9npgTfWwTpapOWrdEn6tEOBxyoa4ca/Y=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/A8sXy+VEt/UDvQyIVls67n3738PtqSfXu81u+AfIX4=
+			bX/H86hkxLO1BzjlpHhHnEFYREQLL57acnPcKr10Kvw=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			koclDbyOq/IxyZJNY8/mzbeylArdKixRFRRPK7XuV/8=
+			RdPcf0TGD+MPkgGYSPypiwmOqIol1ZinrmeKJ/4Y96k=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZtyzujDc3xsmlV5+17HmFWtNrSedmpgQmlRRxBdsSgs=
+			PPAlwWmg5J/WfO/1bVOYbgNtewOwlfquJk/4vo04w4w=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			koclDbyOq/IxyZJNY8/mzbeylArdKixRFRRPK7XuV/8=
+			RdPcf0TGD+MPkgGYSPypiwmOqIol1ZinrmeKJ/4Y96k=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tvCmJGnOi/hKr5RLuLelmveHR+1P/GAXEE7jyyy5Fws=
+			ZvbBg3URhin2n8ONG4NHF49NMAen8iS3r8dq5OmSlU4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -120,21 +129,30 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+dY8r34vhtDvcaaZHhCr4iJ1WCUQCrnlvO7SCRXD7Y=
+			cI/G14Xv2U/merlACrIqBXDOTV/vVSVL/OpIqdc6XHY=
 			</data>
 		</dict>
 		<key>changelog.md</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wu1hx5mh5EFte3wju3CQ18ZgHCaT9dItDuRmRiD4Tow=
+			Cwst9sMisqRSjMyBP1H0wuhN+vFLoCutHiVodgnz/i4=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/2VQ0dGRl+wcNd930FNmU1wW5TairCTJLwrrJOO37PY=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>fr.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eKx5v/duOGnpBxVAqjh1/bJZhGuYCWDh8nPS9M9eDJQ=
+			jpjhjX36EGBk1Gyhg14ZYadC3AzwKLIbxWs3hJGRn/g=
 			</data>
 			<key>optional</key>
 			<true/>
