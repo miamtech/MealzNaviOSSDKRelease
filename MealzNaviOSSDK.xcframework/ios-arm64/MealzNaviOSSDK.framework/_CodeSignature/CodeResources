@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		3gA+nXf+UVcvft1eJ5exGK22DWE=
+		CIsta0I7REbZWm792mbGAa9+DBo=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		cbKPl32gyci248YDUFz0L4VJ7vE=
+		bg10apJ/cPrjgVSKUhwOrc0zkWU=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		cbKPl32gyci248YDUFz0L4VJ7vE=
+		bg10apJ/cPrjgVSKUhwOrc0zkWU=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8iI7yC5qPY2ayX1TiuCMaACaYaI=
+		UXYOOdRiQmOYPM1O2qcJVY2yD98=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>changelog.md</key>
 		<data>
-		QCphs/Tk5hw5drpqg4901XS1/mk=
+		mS9swULukcejpBF9uZGNYT6UM7A=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -80,14 +80,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bX/H86hkxLO1BzjlpHhHnEFYREQLL57acnPcKr10Kvw=
+			EQV8nmJcWlVM0fEB6nQdovNBcBO4frPO2NcP1a5FDNA=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RdPcf0TGD+MPkgGYSPypiwmOqIol1ZinrmeKJ/4Y96k=
+			HZV+k8wej60Sph2TNNMKN+/dZRut4aajkXlqxpOFDx0=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RdPcf0TGD+MPkgGYSPypiwmOqIol1ZinrmeKJ/4Y96k=
+			HZV+k8wej60Sph2TNNMKN+/dZRut4aajkXlqxpOFDx0=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZvbBg3URhin2n8ONG4NHF49NMAen8iS3r8dq5OmSlU4=
+			o3Pl34Zeh4+S77XGVnlgYmspXFwW84Bq9cSiYqaNL3E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cwst9sMisqRSjMyBP1H0wuhN+vFLoCutHiVodgnz/i4=
+			5fcSG0h+u1aw98MgbKFG0FJWqoQ3EpLttsFKqVjVMjs=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>

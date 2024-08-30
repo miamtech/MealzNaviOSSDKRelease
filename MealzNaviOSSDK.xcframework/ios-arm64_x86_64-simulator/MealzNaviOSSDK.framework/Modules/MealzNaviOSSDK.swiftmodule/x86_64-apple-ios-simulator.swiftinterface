@@ -138,6 +138,7 @@ public protocol MyBasketFeatureNavCoordinatorProtocol {
   var myBasketBaseViews: MealzUIiOSSDK.BasePageViewParameters { get set }
   var myMealsViewOptions: MealzUIiOSSDK.MyMealsViewOptions { get set }
   var myMealsBaseViews: MealzUIiOSSDK.BasePageViewParameters { get set }
+  var defaultTab: MealziOSSDK.SelectedMyBasketPage { get set }
   var navigateToCatalog: () -> Swift.Void { get set }
   var navigateToCheckout: (Swift.String?) -> Swift.Void { get set }
   var myMealsCTANavigation: (() -> Swift.Void)? { get set }
@@ -146,7 +147,7 @@ public protocol MyBasketFeatureNavCoordinatorProtocol {
 }
 @available(iOS 14, *)
 public struct MyBasketFeatureConstructor {
-  public init(myBasketViewOptions: MealzUIiOSSDK.MyBasketViewOptions = MyBasketViewOptions(), myBasketBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myMealsViewOptions: MealzUIiOSSDK.MyMealsViewOptions = MyMealsViewOptions(nestedOptions: NestedMyMealsViewOptions()), myMealsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myProductsViewOptions: MealzUIiOSSDK.MyProductsViewOptions = MyProductsViewOptions(), myProductsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig = myMealsDefaultRecipesListGridConfig, navigateToCatalog: @escaping () -> Swift.Void, navigateToCheckout: @escaping (Swift.String?) -> Swift.Void, myMealsCTANavigation: (() -> Swift.Void)? = nil)
+  public init(myBasketViewOptions: MealzUIiOSSDK.MyBasketViewOptions = MyBasketViewOptions(), myBasketBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myMealsViewOptions: MealzUIiOSSDK.MyMealsViewOptions = MyMealsViewOptions(nestedOptions: NestedMyMealsViewOptions()), myMealsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), myProductsViewOptions: MealzUIiOSSDK.MyProductsViewOptions = MyProductsViewOptions(), myProductsBaseViews: MealzUIiOSSDK.BasePageViewParameters = BasePageViewParameters(), catalogRecipesListGridConfig: MealziOSSDK.CatalogRecipesListGridConfig = myMealsDefaultRecipesListGridConfig, defaultTab: MealziOSSDK.SelectedMyBasketPage = .recipes, navigateToCatalog: @escaping () -> Swift.Void, navigateToCheckout: @escaping (Swift.String?) -> Swift.Void, myMealsCTANavigation: (() -> Swift.Void)? = nil)
 }
 @objc @_hasMissingDesignatedInitializers @available(iOS 14, *)
 @_Concurrency.MainActor(unsafe) public class MealzMyBasketFeatureUIKit : UIKit.UINavigationController {
@@ -161,6 +162,7 @@ public class MyBasketFeatureNavCoordinator : MealzNaviOSSDK.MealzBaseNavCoordina
   public var myMealsBaseViews: MealzUIiOSSDK.BasePageViewParameters
   public var myProductsViewOptions: MealzUIiOSSDK.MyProductsViewOptions
   public var myProductsBaseViews: MealzUIiOSSDK.BasePageViewParameters
+  public var defaultTab: MealziOSSDK.SelectedMyBasketPage
   public var navigateToCatalog: () -> Swift.Void
   public var navigateToCheckout: (Swift.String?) -> Swift.Void
   public var myMealsCTANavigation: (() -> Swift.Void)?

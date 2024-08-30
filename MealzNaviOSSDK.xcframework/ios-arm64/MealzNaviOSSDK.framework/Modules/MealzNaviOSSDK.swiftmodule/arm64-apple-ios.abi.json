@@ -7029,6 +7029,101 @@
           },
           {
             "kind": "Var",
+            "name": "defaultTab",
+            "printedName": "defaultTab",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectedMyBasketPage",
+                "printedName": "MealziOSSDK.SelectedMyBasketPage",
+                "usr": "s:11MealziOSSDK20SelectedMyBasketPageO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvp",
+            "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvp",
+            "moduleName": "MealzNaviOSSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelectedMyBasketPage",
+                    "printedName": "MealziOSSDK.SelectedMyBasketPage",
+                    "usr": "s:11MealziOSSDK20SelectedMyBasketPageO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvg",
+                "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvg",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelectedMyBasketPage",
+                    "printedName": "MealziOSSDK.SelectedMyBasketPage",
+                    "usr": "s:11MealziOSSDK20SelectedMyBasketPageO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvs",
+                "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvs",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvM",
+                "mangledName": "$s14MealzNaviOSSDK37MyBasketFeatureNavCoordinatorProtocolP10defaultTab06MealziC008SelecteddE4PageOvM",
+                "moduleName": "MealzNaviOSSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "sugared_genericSig": "<Self where Self : MealzNaviOSSDK.MyBasketFeatureNavCoordinatorProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "intro_iOS": "14",
+                "declAttributes": [
+                  "Available"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "navigateToCatalog",
             "printedName": "navigateToCatalog",
             "children": [
@@ -7624,7 +7719,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(myBasketViewOptions:myBasketBaseViews:myMealsViewOptions:myMealsBaseViews:myProductsViewOptions:myProductsBaseViews:catalogRecipesListGridConfig:navigateToCatalog:navigateToCheckout:myMealsCTANavigation:)",
+            "printedName": "init(myBasketViewOptions:myBasketBaseViews:myMealsViewOptions:myMealsBaseViews:myProductsViewOptions:myProductsBaseViews:catalogRecipesListGridConfig:defaultTab:navigateToCatalog:navigateToCheckout:myMealsCTANavigation:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7680,6 +7775,13 @@
                 "printedName": "MealziOSSDK.CatalogRecipesListGridConfig",
                 "hasDefaultArg": true,
                 "usr": "s:11MealziOSSDK28CatalogRecipesListGridConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SelectedMyBasketPage",
+                "printedName": "MealziOSSDK.SelectedMyBasketPage",
+                "hasDefaultArg": true,
+                "usr": "s:11MealziOSSDK20SelectedMyBasketPageO"
               },
               {
                 "kind": "TypeFunc",
@@ -7752,8 +7854,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig17navigateToCatalog0tU8Checkout0hM13CTANavigationAC0a3UIiC00deiJ0V_AN0k4PageI10ParametersVAN0dmiJ0VArN0dniJ0VAR06MealziC00vpqrS0VyycySSSgcyycSgtcfc",
-            "mangledName": "$s14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig17navigateToCatalog0tU8Checkout0hM13CTANavigationAC0a3UIiC00deiJ0V_AN0k4PageI10ParametersVAN0dmiJ0VArN0dniJ0VAR06MealziC00vpqrS0VyycySSSgcyycSgtcfc",
+            "usr": "s:14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig10defaultTab17navigateToCatalog0vW8Checkout0hM13CTANavigationAC0a3UIiC00deiJ0V_AO0k4PageI10ParametersVAO0dmiJ0VAsO0dniJ0VAS06MealziC00xpqrS0VAX08SelecteddE4PageOyycySSSgcyycSgtcfc",
+            "mangledName": "$s14MealzNaviOSSDK26MyBasketFeatureConstructorV02myE11ViewOptions0hE9BaseViews0h5MealsiJ00hmkL00h8ProductsiJ00hnkL028catalogRecipesListGridConfig10defaultTab17navigateToCatalog0vW8Checkout0hM13CTANavigationAC0a3UIiC00deiJ0V_AO0k4PageI10ParametersVAO0dmiJ0VAsO0dniJ0VAS06MealziC00xpqrS0VAX08SelecteddE4PageOyycySSSgcyycSgtcfc",
             "moduleName": "MealzNaviOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -8631,6 +8733,95 @@
                 "declKind": "Accessor",
                 "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC19myProductsBaseViews0a3UIiC00K18PageViewParametersVvM",
                 "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC19myProductsBaseViews0a3UIiC00K18PageViewParametersVvM",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "intro_iOS": "14",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultTab",
+            "printedName": "defaultTab",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelectedMyBasketPage",
+                "printedName": "MealziOSSDK.SelectedMyBasketPage",
+                "usr": "s:11MealziOSSDK20SelectedMyBasketPageO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvp",
+            "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvp",
+            "moduleName": "MealzNaviOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelectedMyBasketPage",
+                    "printedName": "MealziOSSDK.SelectedMyBasketPage",
+                    "usr": "s:11MealziOSSDK20SelectedMyBasketPageO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvg",
+                "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvg",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelectedMyBasketPage",
+                    "printedName": "MealziOSSDK.SelectedMyBasketPage",
+                    "usr": "s:11MealziOSSDK20SelectedMyBasketPageO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvs",
+                "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvs",
+                "moduleName": "MealzNaviOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvM",
+                "mangledName": "$s14MealzNaviOSSDK29MyBasketFeatureNavCoordinatorC10defaultTab06MealziC008SelecteddE4PageOvM",
                 "moduleName": "MealzNaviOSSDK",
                 "implicit": true,
                 "intro_iOS": "14",
@@ -23309,28 +23500,28 @@
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 835,
+      "offset": 857,
       "length": 16,
       "value": "\"MealzNaviOSSDK\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1286,
       "length": 9,
       "value": "\".bundle\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1416,
+      "offset": 1438,
       "length": 43,
       "value": "\"Unable to find bundle named \""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1458,
+      "offset": 1480,
       "length": 2,
       "value": "\"\""
     },

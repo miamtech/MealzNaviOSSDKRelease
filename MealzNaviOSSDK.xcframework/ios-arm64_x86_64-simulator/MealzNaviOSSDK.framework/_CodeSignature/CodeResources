@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3gA+nXf+UVcvft1eJ5exGK22DWE=
+		CIsta0I7REbZWm792mbGAa9+DBo=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		o85ehwS8EIXT1GEGF8ePLus1JQI=
+		4X6ePWqzMpS5klvblyg5/1dqD3U=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		o85ehwS8EIXT1GEGF8ePLus1JQI=
+		4X6ePWqzMpS5klvblyg5/1dqD3U=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UD3T+eIKZVvkF4v/eD9KAaxfSTo=
+		imiqVom4KGWe704R1HLZyjl0QJ0=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3gA+nXf+UVcvft1eJ5exGK22DWE=
+		CIsta0I7REbZWm792mbGAa9+DBo=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		D7mFpsDb3J1KxKBPDGSfvCMfyrE=
+		06JTKZR7cxt6t/pGt4KdgAAjFWI=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		D7mFpsDb3J1KxKBPDGSfvCMfyrE=
+		06JTKZR7cxt6t/pGt4KdgAAjFWI=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Hnv6apB+a/nnavYVcDjcAdibzs4=
+		w8//NsXxjFIkfXM6iOy/ykw2r58=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>changelog.md</key>
 		<data>
-		QCphs/Tk5hw5drpqg4901XS1/mk=
+		mS9swULukcejpBF9uZGNYT6UM7A=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bX/H86hkxLO1BzjlpHhHnEFYREQLL57acnPcKr10Kvw=
+			EQV8nmJcWlVM0fEB6nQdovNBcBO4frPO2NcP1a5FDNA=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6U7MxoVBYN1ybaRrkWa0uD+Zye/FWSlm3PMscjtjDio=
+			+VQo0oM34nKBMX3cPxNl4Bb+rfBUkmobPTlPhtt9rV8=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -121,28 +121,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6U7MxoVBYN1ybaRrkWa0uD+Zye/FWSlm3PMscjtjDio=
+			+VQo0oM34nKBMX3cPxNl4Bb+rfBUkmobPTlPhtt9rV8=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bCYBYEPe9LAcbdI53RX1Vbr5XTqqW87bJziNGTl8ywA=
+			/9miub2yNwnJlgZo5j1Ki3sfxpDJ1krYKBJDYH/z9dc=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bX/H86hkxLO1BzjlpHhHnEFYREQLL57acnPcKr10Kvw=
+			EQV8nmJcWlVM0fEB6nQdovNBcBO4frPO2NcP1a5FDNA=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1RmtGDmP4lK7lG/KmsgGFEqKL82Z12rL8zydsNXfN0s=
+			VGw+NhJtc0PaF0Wmiiemeu4OuDlBmuVAmFPMFu8i7Mg=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -156,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1RmtGDmP4lK7lG/KmsgGFEqKL82Z12rL8zydsNXfN0s=
+			VGw+NhJtc0PaF0Wmiiemeu4OuDlBmuVAmFPMFu8i7Mg=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1URX9fnnzhS6mm/kCiTCae4E/B0uTFWhug8vUgWPnWM=
+			UZKdhGLwPqv0ayHk52WnBkcJED2FeZOQyWhsGSDff5o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -191,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cwst9sMisqRSjMyBP1H0wuhN+vFLoCutHiVodgnz/i4=
+			5fcSG0h+u1aw98MgbKFG0FJWqoQ3EpLttsFKqVjVMjs=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
