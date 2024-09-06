@@ -23507,21 +23507,21 @@
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1286,
+      "offset": 1289,
       "length": 9,
       "value": "\".bundle\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1438,
+      "offset": 1441,
       "length": 43,
       "value": "\"Unable to find bundle named \""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1480,
+      "offset": 1483,
       "length": 2,
       "value": "\"\""
     },
