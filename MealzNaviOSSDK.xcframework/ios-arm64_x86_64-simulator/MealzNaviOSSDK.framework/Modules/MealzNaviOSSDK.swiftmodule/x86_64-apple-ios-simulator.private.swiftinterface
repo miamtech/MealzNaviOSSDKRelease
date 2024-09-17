@@ -13,6 +13,10 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import mealzcore
 @available(iOS 14, *)
+extension Foundation.Bundle {
+  public static var mealzNavBundle: Foundation.Bundle
+}
+@available(iOS 14, *)
 public func sharedCatalogActions(coordinator: MealzNaviOSSDK.CatalogFeatureNavCoordinator?, navigateToMealPlanner: (() -> Swift.Void)? = nil) -> MealziOSSDK.CatalogActions
 @objc @_hasMissingDesignatedInitializers @available(iOS 14, *)
 @_Concurrency.MainActor(unsafe) public class CatalogViewController : UIKit.UIViewController {

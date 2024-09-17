@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  MealzNaviOSSDK
+
+  Created by Diarmuid McGonagle on 03/07/2024.
+  
+*/
+
+"catalog_title" = "Meal Ideas";
+"catalog_results_title" = "Collection";
+"filters_results_title" = "Collection";
+"search_title" = "Search";
+"search_results_title" = "Results";
+"recipe_details_title" = "Recipe Details";
+"meal_planner_title" = "Replacement";
+"my_meals_title" = "My Meals";
+"my_basket_title" = "My Basket";
+"favorites_title" = "My Favorites";
+"filters_title" = "Filters";
+"preferences_title" = "Preferences";
+"item_selector_replace_title" = "Replace";
+"item_selector_search_title" = "Add a product";
+
+"return_button" = "Back";

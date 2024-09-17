@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ouw1XQr3qH0yQ/ldcusEvISNKmc=
+		9siWsUuNwUjyja0wvBLeIUjK5Xk=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4X6ePWqzMpS5klvblyg5/1dqD3U=
+		W77Po2jHurv6TNzCvLCi9CBuMmQ=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4X6ePWqzMpS5klvblyg5/1dqD3U=
+		W77Po2jHurv6TNzCvLCi9CBuMmQ=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4u5iHR7KnouH7nmYut2stK+FML4=
+		1FzqFOD52BWvYtnPg085W/c6Yaw=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ouw1XQr3qH0yQ/ldcusEvISNKmc=
+		9siWsUuNwUjyja0wvBLeIUjK5Xk=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		06JTKZR7cxt6t/pGt4KdgAAjFWI=
+		3JpfB9kboPValEJze2hkoB4CkIw=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,16 +46,34 @@
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		06JTKZR7cxt6t/pGt4KdgAAjFWI=
+		3JpfB9kboPValEJze2hkoB4CkIw=
 		</data>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TzFcqbyFQ6ywQWb3o2+zwO2mEz8=
+		xJgqyTTvx6ZF6BJJZSsScgoix40=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		RH+v+gXG03/05XqiRRJzrtolr2Q=
 		</data>
+		<key>MyResources.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P7OkQsZEusUu/l3CLb50QIkVnN0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MyResources.bundle/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7kyY5PEYGfZgBUVgnC8k+Gh+Nk8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>README.md</key>
 		<data>
 		2C62onSowRJLhDVmic1JtiZfIbU=
@@ -68,24 +86,6 @@
 		<data>
 		mS9swULukcejpBF9uZGNYT6UM7A=
 		</data>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QjHuGYvb/hTA0rsp+1Fa/icaU4s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XQUKpEqhOANM+Oz085pK5tnXwtw=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ILbNpv3iIRszA8s5v/qtXTWjGoPitP5ARg3Qh1sf48=
+			f3O34ss21Icws2NIfkWDB9/CsBrHItkF+WM+Vqpyb8k=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+VQo0oM34nKBMX3cPxNl4Bb+rfBUkmobPTlPhtt9rV8=
+			tp17jghfp6JNNkkwPBzz2SZK5DBEzdGM8GcmgMCHVIs=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -121,28 +121,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+VQo0oM34nKBMX3cPxNl4Bb+rfBUkmobPTlPhtt9rV8=
+			tp17jghfp6JNNkkwPBzz2SZK5DBEzdGM8GcmgMCHVIs=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8e2bAvOAP0JpuTsMrLhFZJwgMErlwgdq13G2suW4vN4=
+			O3UREQi08lkyetLKDsUMe+kNH4Rh0z9FtTJB+qtK5Wo=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ILbNpv3iIRszA8s5v/qtXTWjGoPitP5ARg3Qh1sf48=
+			f3O34ss21Icws2NIfkWDB9/CsBrHItkF+WM+Vqpyb8k=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGw+NhJtc0PaF0Wmiiemeu4OuDlBmuVAmFPMFu8i7Mg=
+			8PCUMyYYVmmKLxa0tlsh6S4a6m4fDn+ORixXpPWr0Ls=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -156,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGw+NhJtc0PaF0Wmiiemeu4OuDlBmuVAmFPMFu8i7Mg=
+			8PCUMyYYVmmKLxa0tlsh6S4a6m4fDn+ORixXpPWr0Ls=
 			</data>
 		</dict>
 		<key>Modules/MealzNaviOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			26c7GFqyr0M3xAGlcI4w3HZzBl7WSKiThXYZaE43hpM=
+			R0oJXdreq0GKJvAvb95hJ2K5fDLvdjH8pJMTb654Aww=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -172,6 +172,24 @@
 			<data>
 			ll32hBQnraeb3atgh2s1pk37J0u8DgJCQR2IYzRltgY=
 			</data>
+		</dict>
+		<key>MyResources.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pKUNg3uKtsJNzPQtG0uwaiHMSg2mZ8zkDO1r5MSZuog=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>MyResources.bundle/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6gAI9QCNf+GHkqcV5jMD/bfHWV1k0L+/JcO9HchKnyY=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>README.md</key>
 		<dict>
@@ -193,24 +211,6 @@
 			<data>
 			5fcSG0h+u1aw98MgbKFG0FJWqoQ3EpLttsFKqVjVMjs=
 			</data>
-		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/2VQ0dGRl+wcNd930FNmU1wW5TairCTJLwrrJOO37PY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jpjhjX36EGBk1Gyhg14ZYadC3AzwKLIbxWs3hJGRn/g=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

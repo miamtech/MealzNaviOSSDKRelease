@@ -130,20 +130,13 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "mealzcore",
+        "printedName": "mealzcore",
         "declKind": "Import",
         "moduleName": "MealzNaviOSSDK",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "MealzNaviOSSDK"
       },
       {
         "kind": "Import",
@@ -161,8 +154,15 @@
       },
       {
         "kind": "Import",
-        "name": "mealzcore",
-        "printedName": "mealzcore",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MealzNaviOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MealzNaviOSSDK"
       },
@@ -23492,6 +23492,194 @@
             "mangledName": "$s14MealzNaviOSSDK26BaseNavCoordinatorProtocolP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mealzNavBundle",
+            "printedName": "mealzNavBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvpZ",
+            "mangledName": "$sSo8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvpZ",
+            "moduleName": "MealzNaviOSSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvgZ",
+                "mangledName": "$sSo8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvgZ",
+                "moduleName": "MealzNaviOSSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvsZ",
+                "mangledName": "$sSo8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvsZ",
+                "moduleName": "MealzNaviOSSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvMZ",
+                "mangledName": "$sSo8NSBundleC14MealzNaviOSSDKE14mealzNavBundleABvMZ",
+                "moduleName": "MealzNaviOSSDK",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "14",
+                "declAttributes": [
+                  "Available",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -23499,38 +23687,24 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
-      "kind": "Array",
-      "offset": 410,
-      "length": 51,
-      "value": "[\"MealzNaviOSSDK_MealzNaviOSSDK\", \"MealzNaviOSSDK\"]"
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 13,
+      "value": "\"MyResources\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 687,
-      "length": 9,
-      "value": "\".bundle\""
+      "offset": 1156,
+      "length": 8,
+      "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 865,
-      "length": 70,
-      "value": "\"Unable to find bundle named \""
-    },
-    {
-      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 926,
-      "length": 6,
-      "value": "\" or \""
-    },
-    {
-      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 934,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1295,
+      "length": 38,
+      "value": "\"Unable to find bundle mealzNavBundle\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/ViewController\/GeneralViews\/BasketTagViewController.swift",
