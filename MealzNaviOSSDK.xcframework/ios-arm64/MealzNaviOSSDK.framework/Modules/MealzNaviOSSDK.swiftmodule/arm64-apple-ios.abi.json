@@ -23499,29 +23499,36 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 857,
-      "length": 16,
-      "value": "\"MealzNaviOSSDK\""
+      "kind": "Array",
+      "offset": 410,
+      "length": 51,
+      "value": "[\"MealzNaviOSSDK_MealzNaviOSSDK\", \"MealzNaviOSSDK\"]"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 687,
       "length": 9,
       "value": "\".bundle\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1441,
-      "length": 43,
+      "offset": 865,
+      "length": 70,
       "value": "\"Unable to find bundle named \""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 926,
+      "length": 6,
+      "value": "\" or \""
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealzNaviOSSDK\/Sources\/MealzNaviOSSDK\/Utils\/Bundle.Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 934,
       "length": 2,
       "value": "\"\""
     },
